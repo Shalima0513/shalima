@@ -325,3 +325,62 @@ p {
   font-style: italic;
   line-height: 1.5;
 }
+.survey-overview {
+  margin: 3rem 0;
+}
+
+.survey-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.survey-card {
+  background-color: #fffaf3;
+  border: 1px solid #decdbb;
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.survey-card h3 {
+  margin-top: 0.8rem;
+  color: #4f392b;
+}
+
+.survey-card p {
+  line-height: 1.65;
+}
+
+.survey-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8a5a44;
+  color: #fffaf3;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.55rem 0.9rem;
+  background-color: #8a5a44;
+  color: #fffaf3;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.card-link:hover {
+  background-color: #6f4e37;
+}
+
+@media (max-width: 768px) {
+  .survey-grid {
+    grid-template-columns: 1fr;
+  }
+}
