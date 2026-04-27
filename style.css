@@ -407,3 +407,25 @@ p {
   font-style: italic;
   line-height: 1.5;
 }
+.district-materials {
+  margin: 3rem 0;
+}
+
+.district-details {
+  background-color: #fffaf3;
+  border: 1px solid #decdbb;
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.district-details summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #4a3728;
+}
+
+.district-details p {
+  margin-top: 1rem;
+  line-height: 1.7;
+}
