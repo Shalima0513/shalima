@@ -279,3 +279,26 @@ p {
     font-size: 1.5rem;
   }
 }
+.home-hero-image {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.home-hero-image img {
+  width: 100%;
+  max-width: 760px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 16px;
+  border: 1px solid #d8c7b5;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.home-hero-image figcaption {
+  max-width: 760px;
+  margin: 0.7rem auto 0 auto;
+  font-size: 0.95rem;
+  color: #6a625c;
+  font-style: italic;
+  line-height: 1.5;
+}
