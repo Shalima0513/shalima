@@ -384,3 +384,26 @@ p {
     grid-template-columns: 1fr;
   }
 }
+.survey-map {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.survey-map img {
+  width: 100%;
+  max-width: 760px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 14px;
+  border: 1px solid #d8c7b5;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.survey-map figcaption {
+  max-width: 760px;
+  margin: 0.7rem auto 0 auto;
+  font-size: 0.95rem;
+  color: #6a625c;
+  font-style: italic;
+  line-height: 1.5;
+}
