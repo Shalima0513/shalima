@@ -429,3 +429,61 @@ p {
   margin-top: 1rem;
   line-height: 1.7;
 }
+.county-summary {
+  margin: 3rem 0;
+}
+
+.county-summary h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #5c3b2e;
+  margin-bottom: 1.5rem;
+}
+
+.county-summary h3 {
+  font-size: 1.4rem;
+  color: #5c3b2e;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.county-summary p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin: 1.5rem 0 2rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  background: #fffaf4;
+}
+
+th,
+td {
+  border: 1px solid #d8c3b0;
+  padding: 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #8b5a44;
+  color: white;
+  font-weight: 700;
+}
+
+tbody tr:nth-child(even) {
+  background: #f7efe7;
+}
+
+.total-row {
+  background: #ead8c8;
+  font-weight: 700;
+}
