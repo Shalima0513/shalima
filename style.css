@@ -487,3 +487,7 @@ tbody tr:nth-child(even) {
   background: #ead8c8;
   font-weight: 700;
 }
+.county-summary strong {
+  color: #8b5a44;
+  font-weight: 800;
+}
