@@ -707,7 +707,7 @@ blockquote {
 }
 
 .main-source-image img {
-  max-height: 520px;
+  max-height: 480px;
   object-fit: contain;
   background: #fffdf9;
 }
