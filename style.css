@@ -491,3 +491,143 @@ tbody tr:nth-child(even) {
   color: #8b5a44;
   font-weight: 800;
 }
+.calculation-hero,
+.calculation-flow,
+.calculation-step {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #fffaf4;
+  border: 1px solid #e2cdbb;
+  border-radius: 18px;
+  box-shadow: 0 8px 22px rgba(92, 59, 46, 0.08);
+}
+
+.calculation-hero h1 {
+  text-align: center;
+  font-size: 2.1rem;
+  color: #5c3b2e;
+  margin-bottom: 1.2rem;
+}
+
+.calculation-hero p,
+.calculation-step p,
+.calculation-flow p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+
+.calculation-step h2,
+.calculation-flow h2 {
+  color: #5c3b2e;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.calculation-step h3 {
+  color: #5c3b2e;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.step-label {
+  display: inline-block;
+  background: #8b5a44;
+  color: white;
+  font-weight: 700;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  margin-bottom: 0.8rem;
+}
+
+.flow-chart {
+  display: grid;
+  gap: 0.65rem;
+  justify-items: center;
+  margin-top: 1.5rem;
+}
+
+.flow-step {
+  width: 100%;
+  max-width: 650px;
+  background: #f8f1ea;
+  border: 1px solid #e2cdbb;
+  border-left: 6px solid #8b5a44;
+  border-radius: 14px;
+  padding: 1rem 1.2rem;
+  font-weight: 700;
+  color: #5c3b2e;
+  text-align: center;
+}
+
+.flow-arrow {
+  font-size: 1.5rem;
+  color: #8b5a44;
+  font-weight: 800;
+}
+
+blockquote {
+  background: #f8f1ea;
+  border-left: 6px solid #8b5a44;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  color: #4b3a32;
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.regional-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.regional-card {
+  background: #f8f1ea;
+  border: 1px solid #e2cdbb;
+  border-radius: 14px;
+  padding: 1.2rem;
+}
+
+.regional-card h3 {
+  margin-top: 0;
+  color: #5c3b2e;
+}
+
+.regional-card ul {
+  padding-left: 1.2rem;
+  line-height: 1.7;
+}
+
+.formula-box {
+  background: #f3e5d8;
+  border: 1px solid #d8c3b0;
+  border-radius: 14px;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.formula {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #5c3b2e;
+}
+
+@media (max-width: 800px) {
+  .regional-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .calculation-hero,
+  .calculation-flow,
+  .calculation-step {
+    padding: 1.3rem;
+  }
+
+  .calculation-hero h1 {
+    font-size: 1.6rem;
+  }
+}
