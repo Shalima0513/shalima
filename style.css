@@ -837,3 +837,31 @@ blockquote {
     padding: 0.7rem;
   }
 }
+.primary-source-note {
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fffaf4;
+  border: 1px solid #e2cdbb;
+  border-left: 6px solid #8b5a44;
+  border-radius: 14px;
+}
+
+.primary-source-note h2 {
+  color: #5c3b2e;
+  margin-top: 0;
+}
+
+.source-link {
+  display: inline-block;
+  background: #8b5a44;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+}
+
+.source-link:hover {
+  background: #6f4534;
+}
