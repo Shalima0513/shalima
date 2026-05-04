@@ -652,43 +652,8 @@ blockquote {
   line-height: 1.7;
 }
 
-.response-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.2rem;
-}
-
-.response-card {
-  background: #ffffff;
-  border: 1px solid #e1cdbd;
-  border-radius: 14px;
-  padding: 1.3rem;
-  box-shadow: 0 4px 12px rgba(80, 50, 30, 0.08);
-}
-
-.response-card h3 {
-  color: #6b3f25;
-  margin-bottom: 0.7rem;
-}
-
-.response-card p {
-  line-height: 1.6;
-}
-
-.source-note {
-  margin-top: 1rem;
-  font-size: 0.9rem;
-  color: #7a6a5c;
-  font-style: italic;
-}
-
-@media (max-width: 800px) {
-  .response-grid {
-    grid-template-columns: 1fr;
-  }
-}
 .response-section {
-  max-width: 980px;
+  max-width: 1100px;
   margin: 4rem auto;
   padding: 2rem;
   background: #fffaf4;
@@ -710,10 +675,21 @@ blockquote {
 
 .print-feature {
   display: grid;
-  grid-template-columns: 1.05fr 1.2fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
   gap: 2rem;
   align-items: start;
   margin-top: 2rem;
+}
+
+.print-images,
+.print-text {
+  min-width: 0;
+}
+
+.print-images {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
 .print-images figure {
@@ -723,15 +699,22 @@ blockquote {
 .main-source-image img,
 .supporting-images img {
   width: 100%;
+  max-width: 100%;
   display: block;
   border-radius: 12px;
   border: 1px solid #dccbbb;
   box-shadow: 0 6px 18px rgba(80, 50, 30, 0.12);
 }
 
+.main-source-image img {
+  max-height: 520px;
+  object-fit: contain;
+  background: #fffdf9;
+}
+
 .main-source-image figcaption,
 .supporting-images figcaption {
-  margin-top: 0.6rem;
+  margin-top: 0.55rem;
   font-size: 0.9rem;
   color: #7a6a5c;
   font-style: italic;
@@ -743,11 +726,11 @@ blockquote {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  margin-top: 1rem;
 }
 
 .print-text h3 {
   color: #5a3a2e;
+  margin-top: 0;
   margin-bottom: 1rem;
 }
 
@@ -781,6 +764,7 @@ blockquote {
   font-size: 0.95rem;
   color: #7a6a5c;
   margin-bottom: 1rem;
+  font-style: italic;
 }
 
 .conflict-table-section {
@@ -835,11 +819,15 @@ blockquote {
   }
 
   .supporting-images {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
+  .supporting-images {
+    grid-template-columns: 1fr;
+  }
+
   .conflict-table {
     font-size: 0.85rem;
   }
