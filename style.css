@@ -631,3 +631,59 @@ blockquote {
     font-size: 1.6rem;
   }
 }
+.response-section {
+  max-width: 980px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #fffaf4;
+  border-radius: 18px;
+}
+
+.response-section h2 {
+  text-align: center;
+  color: #4b3328;
+  margin-bottom: 1rem;
+}
+
+.section-intro {
+  max-width: 760px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.response-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+.response-card {
+  background: #ffffff;
+  border: 1px solid #e1cdbd;
+  border-radius: 14px;
+  padding: 1.3rem;
+  box-shadow: 0 4px 12px rgba(80, 50, 30, 0.08);
+}
+
+.response-card h3 {
+  color: #6b3f25;
+  margin-bottom: 0.7rem;
+}
+
+.response-card p {
+  line-height: 1.6;
+}
+
+.source-note {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #7a6a5c;
+  font-style: italic;
+}
+
+@media (max-width: 800px) {
+  .response-grid {
+    grid-template-columns: 1fr;
+  }
+}
