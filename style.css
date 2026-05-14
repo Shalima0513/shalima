@@ -967,3 +967,14 @@ blockquote {
   line-height: 1.75;
   color: #2f2925;
 }
+.timeline-item {
+  margin-bottom: 2rem;
+}
+
+.timeline-content {
+  padding: 1.4rem 1.6rem;
+}
+
+.timeline-year {
+  margin-bottom: 0.6rem;
+}
