@@ -906,3 +906,15 @@ blockquote {
   letter-spacing: 0.01em;
   font-weight: 700;
 }
+.why-it-matters {
+  max-width: 760px;
+  margin: 2.8rem auto 0 auto;
+  padding: 1.8rem 2rem;
+  background-color: #f8f4ef;
+  border-left: 5px solid #7a5638;
+  border-radius: 12px;
+}
+
+.why-it-matters h2 {
+  margin-top: 0;
+}
