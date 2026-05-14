@@ -1092,3 +1092,25 @@ blockquote {
   font-style: italic;
   line-height: 1.7;
 }
+.local-block table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  font-size: 0.98rem;
+}
+
+.local-block th {
+  background-color: #8d968c;
+  color: #2f2925;
+  text-align: left;
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.local-block td {
+  padding: 1rem;
+  vertical-align: top;
+  line-height: 1.55;
+  border: 2px solid #fffdf9;
+  background-color: #edf0ea;
+}
