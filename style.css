@@ -865,3 +865,32 @@ blockquote {
 .source-link:hover {
   background: #6f4534;
 }
+.map-section {
+  margin: 2.5rem 0 3rem 0;
+  text-align: center;
+}
+
+.map-section h2 {
+  margin-bottom: 1rem;
+}
+
+.home-map {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.home-map img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #d8cfc7;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.home-map figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: #6a625c;
+  font-style: italic;
+  line-height: 1.5;
+}
