@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Timeline</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .timeline-section h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .timeline-intro {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            color: #555;
+        }
+        
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 100%;
+            background: #ccc;
+        }
+        
+        .timeline-item {
+            margin-bottom: 40px;
+            width: 45%;
+            position: relative;
+        }
+        
+        .timeline-item:nth-child(odd) {
+            margin-left: 0;
+            text-align: right;
+            padding-right: 50px;
+        }
+        
+        .timeline-item:nth-child(even) {
+            margin-left: 55%;
+            padding-left: 50px;
+        }
+        
+        .timeline-year {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .timeline-content {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .timeline-content h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        
+        .timeline-figure {
+            text-align: center;
+            margin: 50px 0;
+            width: 100%;
+        }
+        
+        .timeline-figure img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        
+        .timeline-figure figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #666;
+        }
+        
+        .transition-section {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #ccc;
+        }
+        
+        .transition-section h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        
+        .transition-section p {
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 30px;
+            }
+            
+            .timeline-item,
+            .timeline-item:nth-child(odd),
+            .timeline-item:nth-child(even) {
+                width: 100%;
+                margin-left: 0;
+                padding-left: 70px;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="timeline-section">
+        <h2>Historical Timeline</h2>
+        <p class="timeline-intro">
+            Before examining the idea of "surplus land," it is important to understand how Kazakh political authority and land rights changed under Russian imperial rule.
+        </p>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-year">1450–1460</div>
+                <div class="timeline-content">
+                    <h3>Formation of the Kazakh Khanate</h3>
+                    <p>The Kazakh Khanate was founded, marking an important stage in the formation of Kazakh political identity.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">1739</div>
+                <div class="timeline-content">
+                    <h3>Early Records of Flour and Bread Use</h3>
+                    <p>Records appeared mentioning Kazakhs' use of flour and bread, while Russian peasants began to appear in the western regions.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">1822</div>
+                <div class="timeline-content">
+                    <h3>Abolition of the Middle Zhuz Khanate Authority</h3>
+                    <p>The Russian Empire adopted the <em>Statute on Siberian Kirghiz</em>, abolishing the khanate authority of the Middle Zhuz. Here, "Kirghiz" was the term then used by Russians to refer to Kazakhs.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">1824</div>
+                <div class="timeline-content">
+                    <h3>Abolition of the Junior Zhuz Khanate Authority</h3>
+                    <p>The Russian Empire adopted related regulations through the Orenburg administration, abolishing the khanate authority of the Junior Zhuz and prohibiting the election of new khans. This date is often used to mark the institutional end of the Kazakh khanate system.</p>
+                </div>
+            </div>
+
+            <figure class="timeline-figure">
+                <img src="images/russian-steppe-rule.jpg" alt="Russian imperial officials and Kazakh representatives on the steppe">
+                <figcaption>Russian imperial expansion into the Kazakh steppe reshaped political authority and land administration in the nineteenth century.</figcaption>
+            </figure>
+
+            <div class="timeline-item">
+                <div class="timeline-year">1843</div>
+                <div class="timeline-content">
+                    <h3>Supplementary Regulations on Resettlement</h3>
+                    <p>The 1843 Supplementary Regulations, designed for land-poor peasants with five desiatinas (12.3 acres) or less, allowed them to apply for resettlement and encouraged migration. Migrating peasant families could receive up to thirty-five desyatinas of land, along with financial support and temporary exemptions from duties.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">1868</div>
+                <div class="timeline-content">
+                    <h3>Temporary Regulation on the Administration of the Steppe Regions</h3>
+                    <p>The 1868 Temporary Regulation on the Administration of the Steppe Regions declared all Kazakh land to be state property of the Russian Empire and provided for its allocation to settlers, including fifteen desyatinas (about 40.5 acres) for those Kazakhs who chose to settle.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">1891</div>
+                <div class="timeline-content">
+                    <h3>Land Survey and the Determination of Surplus Land</h3>
+                    <p>Based on the 1843 and 1868 regulations, the Russian Empire began to carry out comprehensive land surveys and to define "surplus land" across the Kazakh steppe.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">1917</div>
+                <div class="timeline-content">
+                    <h3>Establishment of the Alash Autonomy</h3>
+                    <p>The Alash Autonomy was established. It sought Kazakh autonomy, land rights, educational reform, rule of law, and cultural development. It also challenged imperial land policies and sought to defend Kazakh land rights.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">1920</div>
+                <div class="timeline-content">
+                    <h3>Establishment of the Kirghiz/Kazakh Autonomous Soviet Socialist Republic</h3>
+                    <p>The Soviet regime established the Kirghiz/Kazakh Autonomous Soviet Socialist Republic, and the Alash movement came to an end.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="transition-section">
+        <h2>From Imperial Law to Local Debate</h2>
+        <p>These laws created the legal framework for land surveys and the identification of "surplus land." Yet Kazakh responses in newspapers and journals show that local communities understood these policies not only as administrative reforms, but as a fundamental disruption of the nomadic system itself. They connected land shortage, migration, and changing livelihoods to the deeper erosion of pastoral mobility and seasonal land use.</p>
+    </section>
+</body>
+</html>
