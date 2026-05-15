@@ -1114,3 +1114,57 @@ blockquote {
   border: 2px solid #fffdf9;
   background-color: #edf0ea;
 }
+.geographical-groups-section {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 3rem;
+}
+
+.geographical-groups-section h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.regional-table-wrapper {
+  margin: 2rem 0;
+  overflow-x: auto;
+}
+
+.regional-groups-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fffaf4;
+  border: 1px solid #d8c2ad;
+  font-size: 0.95rem;
+}
+
+.regional-groups-table caption {
+  caption-side: top;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 0.8rem;
+  color: #4b3428;
+}
+
+.regional-groups-table th {
+  background-color: #7b5238;
+  color: #fff;
+  padding: 0.9rem;
+  text-align: left;
+}
+
+.regional-groups-table td {
+  padding: 0.9rem;
+  border-top: 1px solid #d8c2ad;
+  vertical-align: top;
+}
+
+.regional-groups-table td:first-child {
+  font-weight: 700;
+  color: #7b5238;
+  width: 90px;
+}
+
+.regional-groups-table tr:nth-child(even) {
+  background-color: #f7efe7;
+}
